@@ -1,0 +1,7 @@
+name: ChatCooldown
+version: 1.0
+main: dzineit.chatcooldown.ChatCooldown
+
+permissions:
+    chatcooldown.bypass:
+        description: Allows bypassing the filter
