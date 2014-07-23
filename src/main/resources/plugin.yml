@@ -1,6 +1,6 @@
 name: ChatCooldown
 version: 1.0
-main: dzineit.chatcooldown.ChatCooldown
+main: pw.ollie.chatcooldown.ChatCooldown
 
 permissions:
     chatcooldown.bypass:

@@ -1,4 +1,4 @@
-package dzineit.chatcooldown;
+package pw.ollie.chatcooldown;
 
 import java.util.HashMap;
 import java.util.Map;
