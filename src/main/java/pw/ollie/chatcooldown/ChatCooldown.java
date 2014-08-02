@@ -12,6 +12,11 @@ public final class ChatCooldown extends JavaPlugin {
 	public void onEnable() {
 		checkFiles();
 
+		if (!getConfig().contains("check-commands")) {
+			getConfig().set("check-commands", true);
+			saveConfig();
+		}
+
 		manager = new Cooldowns(getConfig().getBoolean("check-commands", true),
 				getConfig().getInt("cooldown-length", 5) * 1000);
 		getServer().getPluginManager().registerEvents(new CCListener(manager),
